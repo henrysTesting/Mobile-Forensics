@@ -34,9 +34,9 @@ The SMS database is where the most direct evidence was. The conversations covere
 
 ## What I Took Away From This
 
-Going through two different platforms back-to-back really highlighted how differently Android and iOS store and structure their data. Android is a lot more open — there's a wider variety of artifacts, more file types, and more paths an analyst can take. iOS is more locked down by design, but that actually makes the artifacts you do find feel more deliberate and significant.
+Going through two different platforms back-to-back really highlighted how differently Android and iOS store and structure their data. Android is a lot more open there's a wider variety of artifacts, more file types, and more paths an analyst can take. iOS is more locked down by design, but that actually makes the artifacts you do find feel more deliberate and significant.
 
-Both ALEAPP and iLEAPP were genuinely impressive in how much they surface from a raw image file. A lot of forensic work can be tedious, but having a tool that organizes everything into a navigable report makes the analytical part — figuring out what the data means and how it connects — a lot more manageable.
+Both ALEAPP and iLEAPP were genuinely impressive in how much they surface from a raw image file. A lot of forensic work can be tedious, but having a tool that organizes everything into a navigable report makes the analytical part figuring out what the data means and how it connects a lot more manageable.
 
 ---
 
