@@ -8,7 +8,7 @@
 
 ## Executive Summary
 
-As a Digital Forensic Student Analyst with the University of Maryland's Advanced Cybersecurity Experience for Students, I was tasked to review and parse data belonging to an Android device image. ALEAPP was used to examine the image file — its intuitive GUI and broad artifact parsing capabilities made it an essential tool for this investigation.
+As a Digital Forensic Student Analyst with the University of Maryland's Advanced Cybersecurity Experience for Students, I was tasked to review and parse data belonging to an Android device image. ALEAPP was used to examine the image file its intuitive GUI and broad artifact parsing capabilities made it an essential tool for this investigation.
 
 The objective was to examine the Android device and document evidence of a potential cyberattack conducted by the device's user. Supporting imagery is provided throughout to affirm the findings.
 
@@ -31,7 +31,7 @@ The objective was to examine the Android device and document evidence of a poten
 ### Artifact 2 — SIM / Telephony Database
 **Source file:** `\temp\data\user_de\0\com.android.providers.telephony\databases\telephony.db`
 
-**What it is:** A registry of the SIM card's details — carrier, IMSI, MSISDN, ICC ID, and more.
+**What it is:** A registry of the SIM card's details carrier, IMSI, MSISDN, ICC ID, and more.
 
 **Why it matters:** This artifact identifies the specific device and provides a geographic starting point for the investigation. The phone number can also be cross-referenced with external records.
 
@@ -45,7 +45,7 @@ The objective was to examine the Android device and document evidence of a poten
 
 **What it is:** An overview of the user's most-utilized applications.
 
-**Why it matters:** App usage patterns can reveal tools the attacker used. In this case, the user heavily utilized Nexus — a social media aggregator app — suggesting activity across multiple platforms.
+**Why it matters:** App usage patterns can reveal tools the attacker used. In this case, the user heavily utilized Nexus a social media aggregator app suggesting activity across multiple platforms.
 
 ![Figure 3 — UsageStats showing Nexus app activity](../images/android_image4.png)
 *Figure 3 — The user utilized Nexus, a social media application that links multiple platforms together.*
@@ -112,7 +112,7 @@ The objective was to examine the Android device and document evidence of a poten
 
 **What it is:** A log of all search terms entered in Google Chrome.
 
-**Why it matters:** Search history reveals the user's intent and tooling. Chester searched for and downloaded Magisk Manager — a popular Android rooting tool — indicating an attempt to gain privileged access to the device.
+**Why it matters:** Search history reveals the user's intent and tooling. Chester searched for and downloaded Magisk Manager a popular Android rooting tool indicating an attempt to gain privileged access to the device.
 
 ![Figure 8 — Chrome search terms showing Magisk Manager search](../images/android_image10.png)
 *Figure 8 — Chrome search history shows a search for "magisk manager" on 2020-03-05.*
@@ -124,7 +124,7 @@ The objective was to examine the Android device and document evidence of a poten
 
 **What it is:** An SQLite database of the user's most-visited websites in Chrome.
 
-**Why it matters:** Chester's most visited site was `malliesae.com` — the very target he and Alan discussed attacking. This strongly suggests he was performing active reconnaissance on the target prior to the attack. Notably, Metasploit Framework pages also appear in the top sites list.
+**Why it matters:** Chester's most visited site was `malliesae.com` the very target he and Alan discussed attacking. This strongly suggests he was performing active reconnaissance on the target prior to the attack. Notably, Metasploit Framework pages also appear in the top sites list.
 
 ![Figure 9 — Chrome Top Sites showing malliesae.com as rank 0](../images/android_image11.png)
 *Figure 9 — `malliesae.com` is ranked #0 (most visited), with Metasploit Framework pages also present.*
@@ -145,7 +145,7 @@ Using ALEAPP, a comprehensive case was built against Chester (primary actor) and
 | Privilege escalation tool (Magisk) | Chrome Search History |
 | Active reconnaissance on target | Chrome Top Sites |
 
-ALEAPP proved to be an indispensable forensic tool — its ability to parse a wide range of Android artifacts into a clean HTML report allowed for rapid triage and thorough documentation of the attacker's actions from beginning to end.
+ALEAPP proved to be an indispensable forensic tool its ability to parse a wide range of Android artifacts into a clean HTML report allowed for rapid triage and thorough documentation of the attacker's actions from beginning to end.
 
 ---
 
